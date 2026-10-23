@@ -31,3 +31,23 @@ Agrega interactividad. Por ejemplo, permite que un botón muestre las bicicletas
 4. ¿QUÉ PASA CUANDO ALGUIEN ESCRIBE LA DIRECCIÓN DEL SITIO?
 
 El navegador solicita la página al servidor mediante una petición HTTP. El servidor responde con un código de estado y, si todo sale bien, envía el documento HTML para que el navegador lo interprete y lo muestre.
+
+
+
+
+MINIRETO 4 - RUEDA LIBRE
+
+TABLA DE RUTAS
+
+Archivo de origen        Destino             Ruta escrita
+index.html               Inicio              index.html
+index.html               Tarifas              paginas/tarifas.html
+index.html               Reservas             paginas/reservas.html
+
+paginas/tarifas.html     Inicio              ../index.html
+paginas/tarifas.html     Tarifas              tarifas.html
+paginas/tarifas.html     Reservas             reservas.html
+
+paginas/reservas.html    Inicio              ../index.html
+paginas/reservas.html    Tarifas              tarifas.html
+paginas/reservas.html    Reservas             reservas.html
