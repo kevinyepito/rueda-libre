@@ -1,0 +1,33 @@
+1. Peticion de pagina
+url: http://127.0.0.1:5500/index.html
+Protocolo: HTTP
+Host: localhost
+Puerto: 5500
+Ruta: /
+Método: GET
+Código de estado: 200 OK
+
+El navegador solicitó la página al servidor y este respondió correctamente
+
+2. PETICIÓN DE UNA RUTA INEXISTENTE
+
+URL: http://127.0.0.1:5500/bicis.html
+Ruta: /bicis.html
+Código de estado: 404 Not Found
+Cannot GET /bicis.html
+El servidor no encontró el recurso en esa ruta.
+
+
+3. FUNCIÓN DE HTML, CSS Y JAVASCRIPT
+HTML:
+Organiza el contenido de la página. Toda la estructura que veremos
+
+CSS:
+Define la apariencia de la página. Cambia los colores y otros estilos.
+
+JavaScript:
+Agrega interactividad. Por ejemplo, permite que un botón muestre las bicicletas disponibles al hacer clic.
+
+4. ¿QUÉ PASA CUANDO ALGUIEN ESCRIBE LA DIRECCIÓN DEL SITIO?
+
+El navegador solicita la página al servidor mediante una petición HTTP. El servidor responde con un código de estado y, si todo sale bien, envía el documento HTML para que el navegador lo interprete y lo muestre.
